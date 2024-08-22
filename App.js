@@ -4,7 +4,7 @@ import { StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function App() {
   const [inputAge, setInputAge] = useState('')
-  console.log('inputage on nyt: ' +  Number(inputAge))
+  // console.log('inputage on nyt: ' +  Number(inputAge))
 
   const lowerLimit = (220  - Number(inputAge)) * 0.65
   const noDecimalLowerLimit = lowerLimit.toFixed(0);
